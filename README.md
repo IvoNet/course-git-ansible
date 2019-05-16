@@ -27,6 +27,19 @@ At the end of the day the students should:
 * know some basic ad-hoc commands
 * Know the basics of playbooks and roles
 
+
+# Setup
+
+open terminal in project folder and run:
+
+```bash
+source ./setup.sh
+```
+
+This may take a long time as it will provision an ansible host machine and 4 test machines
+When done log into the vagrant machine. This can be done through VirtualBox or ssh.
+If you want to know more read [this](./ansible-host/README.md)
+
 ---
 # License
 
