@@ -1,0 +1,12 @@
+[dev]
+192.168.10.11
+192.168.10.12
+
+[database]
+192.168.10.13
+
+[web]
+192.168.10.14
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
