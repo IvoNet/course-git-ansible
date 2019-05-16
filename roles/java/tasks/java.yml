@@ -2,6 +2,6 @@
 - name: Install Java
   apt:
     name: "{{ java.artifact }}"
-    state: present # should be "{{ installed.state }}" but for the workaround (see main_old.yml)
+    state: present
   when: installed.state == 'present'
 

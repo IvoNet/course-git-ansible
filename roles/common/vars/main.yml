@@ -1,0 +1,6 @@
+---
+# vars file for common
+
+installed:
+#  state: present
+  state: absent

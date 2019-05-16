@@ -1,0 +1,10 @@
+---
+- name: Update repository and Upgrade packages
+  apt:
+    upgrade: dist
+    update_cache: yes
+
+- name: Install cowsay
+  apt:
+    name: cowsay
+    state: "{{ installed.state }}"

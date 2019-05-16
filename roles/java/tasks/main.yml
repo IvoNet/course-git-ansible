@@ -1,0 +1,7 @@
+---
+- name: Java tasks...
+  include_tasks: "java.yml"
+
+- name: Uninstalling...
+  include_tasks: "uninstall.yml"
+  when: installed.state == 'absent'

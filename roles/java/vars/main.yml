@@ -1,0 +1,8 @@
+---
+# vars file for java
+java:
+  artifact: openjdk-11-jdk
+
+installed:
+#  state: present
+  state: absent
