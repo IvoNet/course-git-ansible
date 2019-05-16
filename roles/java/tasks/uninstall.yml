@@ -1,0 +1,7 @@
+---
+- name: Uninstalling java...
+  become: yes
+  command: apt autoremove {{ java.artifact }} -y
+  register: result
+  changed_when: result.stdout.find('is not installed, so not removed') < 0
+

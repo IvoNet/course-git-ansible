@@ -1,0 +1,12 @@
+---
+- name: "all profiles"
+  hosts: all
+  become: yes
+  roles:
+    - common
+
+- name: "developer"
+  hosts: dev
+  become: yes
+  roles:
+    - java
