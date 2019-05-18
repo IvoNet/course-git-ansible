@@ -27,7 +27,6 @@ At the end of the day the students should:
 * know some basic ad-hoc commands
 * Know the basics of playbooks and roles
 
-
 # Setup
 
 open terminal in project folder and run:
