@@ -42,7 +42,7 @@ If you want to know more read [this](./ansible-host/README.md)
 ---
 # License
 
-    Copyright 2019 (c) Ivo Woltring
+    Copyright 2019-2022 (c) Ivo Woltring
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
